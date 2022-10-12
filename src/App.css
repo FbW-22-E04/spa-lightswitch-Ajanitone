@@ -1,0 +1,55 @@
+html,
+body,
+#root {
+  height: 100vh;
+  margin: 0;
+  text-align: center;
+  font-family: "Georgia", serif;
+  font-size: 1.5rem;
+}
+.room {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+
+  margin: 40px auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Georgia", serif;
+  font-size: 1.5rem;
+  height: 30rem;
+  border-radius: 20px;
+  padding: 30px;
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #000000;
+}
+
+button {
+  padding: 0.25rem 0.5rem;
+  font-size: 1rem;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(59, 194, 59);
+  -webkit-box-shadow: inset -1px 2px 2px 2px #000000, 2px 5px 5px 0px #0b325e,
+    5px 5px 10px 5px rgba(0, 0, 0, 0);
+  box-shadow: inset -1px 3px 8px 5px #07280f, 2px 5px 16px 0px #0b325e,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+  font-weight: 600;
+}
+button:active {
+  background-color: red;
+  transform: rotateZ(10deg);
+  width: 20%;
+}
+
+.lit {
+  background-color: white;
+  color: black;
+}
+
+.dark {
+  background-color: black;
+  color: white;
+}
